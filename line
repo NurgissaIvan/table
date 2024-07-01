@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: white;
+        }
+        th:first-child, td:first-child {
+            border-left: none;
+        }
+        th:last-child, td:last-child {
+            border-right: none;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ИИН клиента</th>
+                <th>ФИО клиента</th>
+                <th>DBOID</th>
+                <th>Дата заявки</th>
+                <th>Время фиксации</th>
+                <th>Время завершения сделки</th>
+                <th>Валютная пара</th>
+                <th>Тип операции</th>
+                <th>Курс сделки</th>
+                <th>Курс покрытия</th>
+                <th>Сумма сделки</th>
+                <th>Статус</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>981003301644</td>
+                <td>ЖАЛҒАСОВ ЖАНДОС СӘДІРҰЛЫ</td>
+                <td>FX_1000576079_2588</td>
+                <td>28.06.2024</td>
+                <td>10:28:52</td>
+                <td>10:28:54</td>
+                <td>USDKZT</td>
+                <td>Продажа</td>
+                <td>447.11</td>
+                <td>447.11</td>
+                <td>60,000.00</td>
+                <td class="error">Ошибка</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
